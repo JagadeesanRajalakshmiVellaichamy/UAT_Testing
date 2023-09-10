@@ -27,7 +27,7 @@ st.title('Indian General Election 2019 Youtube Sentiment Dashboard')
 
 #Step3: Read the file from
 ReadFilepath = "D:\\0_SHU_31018584\\Data\\"
-df = pd.read_csv(ReadFilepath + "Youtube_Clean_dataframe.csv", sep=',')
+df = pd.read_csv("https://raw.githubusercontent.com/JagadeesanRajalakshmiVellaichamy/UAT_Testing/main/data/Youtube_Clean_dataframe.csv", sep=',')
 
 #Step4: Plotting the graphs for the dashboard (Analysis period from Jan to Apr 2019 is considered)
 #########################################----SECTION-1----#################################################
