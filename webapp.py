@@ -542,7 +542,7 @@ with right_column3:
 
 #########################################----SECTION-7----#################################################
 st.markdown("SECTION-6: mBert BASE VS FINE TUNED MODEL COMPARISON BY REGIONAL LANGUAGES")
-NLPmetrics = pd.read_csv(ReadFilepath + "NLP_mBERT_Metrics.csv", sep=',')
+NLPmetrics = pd.read_csv("https://raw.githubusercontent.com/JagadeesanRajalakshmiVellaichamy/UAT_Testing/main/data/NLP_mBERT_Metrics.csv", sep=',')
 
 #CHART7.1: Displaying the Trained model metrics - BAR plots
 #filter1
