@@ -22,15 +22,6 @@ warnings.filterwarnings("ignore")
 #Step1: The streamlit application page  layout should be set
 st.set_page_config(layout="wide")
 
-css = """
-<style>
-body {
-    background-color: blue;
-}
-</style>
-"""
-st.markdown(css, unsafe_allow_html=True)
-
 #Step2: The streamlit application title
 st.title('Indian General Election 2019 Youtube Sentiment Dashboard')
 
