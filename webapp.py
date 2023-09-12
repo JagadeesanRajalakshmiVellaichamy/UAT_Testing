@@ -25,7 +25,7 @@ st.set_page_config(layout="wide")
 css = """
 <style>
 body {
-    background-color: #F0F0F0;
+    background-color: blue;
 }
 </style>
 """
